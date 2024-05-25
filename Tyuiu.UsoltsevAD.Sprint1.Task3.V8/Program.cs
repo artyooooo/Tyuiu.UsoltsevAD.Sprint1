@@ -12,8 +12,6 @@ namespace Tyuiu.UsoltsevAD.Sprint1.Task3.V8
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
-
             Console.Title = "Спринт #1 | Выполнил: Усольцев А.Д. | АСОиУб-23-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -25,11 +23,9 @@ namespace Tyuiu.UsoltsevAD.Sprint1.Task3.V8
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
             Console.WriteLine("* выполняет указанные расчет и печатает результат на экране.              *");
-            Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
             double startAmount;
             double percent;
             double timeDays;
@@ -39,7 +35,6 @@ namespace Tyuiu.UsoltsevAD.Sprint1.Task3.V8
             percent = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите срок вклада (дней): ");
             timeDays = Convert.ToDouble(Console.ReadLine());
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
